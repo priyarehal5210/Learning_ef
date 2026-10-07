@@ -1,0 +1,64 @@
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+## Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Ll]og/
+[Ll]ogs/
+Generated_Code/
+
+## Visual Studio cache and temporary files
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+*.dbmdl
+*.jfm
+
+## VS Code and JetBrains Rider settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sln.iml
+
+## Web API specific overrides & environment files
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+
+## Secrets and Sensitive data
+# Avoid committing production-ready application secrets or publish settings
+*.pubxml
+*.pubxml.user
+*.publishproj
+secrets.json
+
+## NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/repositories.config
+
+## Testing and Code Coverage
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+CodeCoverage/
+_TeamCity*
+
+## OS generated files
+.DS_Store
+Thumbs.db
