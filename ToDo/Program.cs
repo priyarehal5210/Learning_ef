@@ -12,12 +12,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 
 #region DI Container
 //for multiple implementation of interface default it will use last one.
-//builder.Services.AddScoped<IPerson, Persons>();
+builder.Services.AddScoped<IPerson, Persons>();
 //builder.Services.AddScoped<IPerson, PersonTest>();
 
 //keyed service
-builder.Services.AddKeyedScoped<IPerson, Persons>("person");
-builder.Services.AddKeyedScoped<IPerson, PersonTest>("persontest");
+//builder.Services.AddKeyedScoped<IPerson, Persons>("person");
+//builder.Services.AddKeyedScoped<IPerson, PersonTest>("persontest");
 #endregion
 
 var app = builder.Build();

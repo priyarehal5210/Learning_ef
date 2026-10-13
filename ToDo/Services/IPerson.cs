@@ -5,5 +5,7 @@ namespace ToDo.Services
     public interface IPerson
     {
         List<PersonDto> GetPersons();
+        Task<Guid> GetId();
+        int AddUser();
     }
 }
